@@ -1,0 +1,143 @@
+import type { Vehicle } from "@/types";
+
+export const vehicles: Vehicle[] = [
+  {
+    id: "swift-dzire",
+    name: "Swift Dzire",
+    category: "sedan",
+    passengerCapacity: 4,
+    luggageCapacity: 2,
+    hasAC: true,
+    features: ["AC", "Music System", "Comfortable Seating", "Boot Space"],
+    pricePerKm: 12,
+    description:
+      "Perfect for couples and small families. Comfortable sedan for short to medium distance trips around Shirdi.",
+  },
+  {
+    id: "honda-amaze",
+    name: "Honda Amaze",
+    category: "sedan",
+    passengerCapacity: 4,
+    luggageCapacity: 2,
+    hasAC: true,
+    features: ["AC", "Music System", "Spacious Interior", "Smooth Ride"],
+    pricePerKm: 13,
+    description:
+      "Premium sedan offering superior comfort for your pilgrimage journey with ample legroom.",
+  },
+  {
+    id: "toyota-etios",
+    name: "Toyota Etios",
+    category: "sedan",
+    passengerCapacity: 4,
+    luggageCapacity: 3,
+    hasAC: true,
+    features: ["AC", "Music System", "Reliable", "Extra Boot Space"],
+    pricePerKm: 13,
+    description:
+      "Trusted Toyota reliability for your sacred journey. Spacious boot for luggage.",
+  },
+  {
+    id: "innova-crysta",
+    name: "Toyota Innova Crysta",
+    category: "suv",
+    passengerCapacity: 7,
+    luggageCapacity: 4,
+    hasAC: true,
+    features: [
+      "AC",
+      "Captain Seats",
+      "Music System",
+      "Spacious",
+      "Smooth Ride",
+    ],
+    pricePerKm: 18,
+    description:
+      "India's most loved family vehicle. Perfect for families with premium comfort and space for 7 passengers.",
+  },
+  {
+    id: "innova-hycross",
+    name: "Toyota Innova Hycross",
+    category: "premium",
+    passengerCapacity: 7,
+    luggageCapacity: 4,
+    hasAC: true,
+    features: [
+      "AC",
+      "Premium Interiors",
+      "Hybrid Engine",
+      "Ottoman Seats",
+      "Touch Infotainment",
+    ],
+    pricePerKm: 22,
+    description:
+      "The ultimate in luxury MPV travel. Hybrid powertrain, premium interiors, and whisper-quiet ride for the most discerning travelers.",
+  },
+  {
+    id: "ertiga",
+    name: "Maruti Ertiga",
+    category: "suv",
+    passengerCapacity: 7,
+    luggageCapacity: 3,
+    hasAC: true,
+    features: ["AC", "Music System", "7 Seater", "Fuel Efficient"],
+    pricePerKm: 15,
+    description:
+      "Versatile 7-seater MPV ideal for families seeking comfort and value on their pilgrimage.",
+  },
+  {
+    id: "tempo-traveller-12",
+    name: "Tempo Traveller 12-Seater",
+    category: "tempo-traveller",
+    passengerCapacity: 12,
+    luggageCapacity: 8,
+    hasAC: true,
+    features: [
+      "AC",
+      "Push-back Seats",
+      "Music System",
+      "Luggage Carrier",
+      "Curtains",
+    ],
+    pricePerKm: 25,
+    description:
+      "Ideal for group pilgrimages and family tours. Comfortable push-back seats with plenty of space for everyone.",
+  },
+  {
+    id: "tempo-traveller-17",
+    name: "Tempo Traveller 17-Seater",
+    category: "tempo-traveller",
+    passengerCapacity: 17,
+    luggageCapacity: 10,
+    hasAC: true,
+    features: [
+      "AC",
+      "Push-back Seats",
+      "Music System",
+      "Luggage Carrier",
+      "Curtains",
+      "First Aid Kit",
+    ],
+    pricePerKm: 30,
+    description:
+      "Perfect for larger groups and community pilgrimages. Ample seating and luggage space for a comfortable group journey.",
+  },
+  {
+    id: "mini-bus",
+    name: "Mini Bus 20-32 Seater",
+    category: "mini-bus",
+    passengerCapacity: 32,
+    luggageCapacity: 20,
+    hasAC: true,
+    features: [
+      "AC",
+      "Comfortable Seating",
+      "PA System",
+      "Large Luggage Bay",
+      "Curtains",
+    ],
+    pricePerKm: 40,
+    description:
+      "For large group pilgrimages and tours. Fully equipped mini bus with all modern amenities for a comfortable journey.",
+  },
+];
